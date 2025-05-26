@@ -1,0 +1,15 @@
+POST http://localhost:8080/api/notificaciones
+
+body: ej: {
+    "mensaje": "Nueva fragancia disponible",
+    "destinatario": "usuario@ejemplo.com",
+    "tipo": "NUEVO_PRODUCTO"
+}
+
+GET http://localhost:8080/api/notificaciones/destinatario/usuario@ejemplo.com
+
+Que notificaciones han sido entregadas a ese email
+
+GET http://localhost:8080/api/notificaciones
+
+entrega todas las notificaciones almacenadas en la db.

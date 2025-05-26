@@ -26,6 +26,6 @@ public class NotificacionesModel {
     private LocalDateTime fechaCreacion;
 
     public enum TipoNotificacion {
-        PROMOCION, NUEVO_PRODUCTO, CONFIRMACION_PEDIDO, RECORDATORIO
+        PROMOCION, NUEVO_PRODUCTO, CONFIRMACION_PEDIDO, RECORDATORIO, ESTADO_ENVIO
     }
 }
